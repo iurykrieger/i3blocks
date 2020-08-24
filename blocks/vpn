@@ -3,7 +3,7 @@
 VPNC_FILE='/var/run/pritunl.pid'
 
 if [[ -e "${VPNC_FILE}" ]]; then
-  echo "on"
-  echo "on"
+  echo "🛡️"
+  echo "🛡️"
   echo ""
 fi
