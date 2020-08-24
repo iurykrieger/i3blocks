@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VPNC_FILE='/var/run/vpnc.pid'
+VPNC_FILE='/var/run/pritunl.pid'
 
 if [[ -e "${VPNC_FILE}" ]]; then
   echo "on"

@@ -1,7 +1,7 @@
 #!/bin/bash
 # Based on http://openweathermap.org/current
 
-API_KEY="44db6a862fba0b067b1930da0d769e98"
+API_KEY="5a338f52aa3e58a14a401ac1f80f3f88"
 
 # Check on http://openweathermap.org/find
 CITY_ID="${BLOCK_INSTANCE}"
@@ -9,12 +9,12 @@ CITY_ID="${BLOCK_INSTANCE}"
 URGENT_LOWER=0
 URGENT_HIGHER=30
 
-ICON_SUNNY=""
-ICON_CLOUDY=""
-ICON_RAINY=""
-ICON_STORM=""
-ICON_SNOW=""
-ICON_FOG=""
+ICON_SUNNY="☀️"
+ICON_CLOUDY="☁️"
+ICON_RAINY="☔"
+ICON_STORM="🌩️"
+ICON_SNOW="❄️"
+ICON_FOG="🌫️"
 
 SYMBOL_CELSIUS="℃"
 
