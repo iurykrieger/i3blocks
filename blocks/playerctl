@@ -11,9 +11,9 @@ if [ $? == 1 ]; then
     exit 0
 fi
 
-ICON_PLAY="➤"
-ICON_PAUSE="Ⅱ"
-ICON_STOP="≠"
+ICON_PLAY="▶️"
+ICON_PAUSE="⏸️"
+ICON_STOP="⏹️"
 CUR_ICON=""
 
 if [[ "${BLOCK_BUTTON}" -eq 1 ]]; then
